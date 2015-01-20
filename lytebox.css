@@ -11,7 +11,7 @@
 #lbMain a img { border: 1px solid #ffffff; }
 
 #lbOuterContainer {	position: relative; background-color: #fff; width: 200px; height: 200px; margin: 0 auto; }
-	#lbOuterContainer.black { border: 2px solid #CCCCCC; background-color: #000000; }
+	#lbOuterContainer.black { border: 0px; background-color: #B2E6D1; }
 	#lbOuterContainer.grey { border: 2px solid #888888; }
 	#lbOuterContainer.red { border: 2px solid #DD0000; }
 	#lbOuterContainer.green { border: 2px solid #00B000; }
@@ -20,7 +20,7 @@
 	#lbOuterContainer.orange { border: 2px solid #D15211; }
 
 #lbTopContainer, #lbBottomContainer { 
-	font: 0.85em Verdana, Helvetica, sans-serif; background-color: #fff; width: 100%; line-height: 1.4em; font-size: 0.9em;
+	font: 0.85em Verdana, Helvetica, sans-serif; background-color: #000000; width: 100%; line-height: 1.4em; font-size: 0.9em;
 	overflow: hidden; margin: 0 auto; padding: 0; position: relative; z-index: 14; display: none;
 }
 #lbTopContainer { overflow: hidden; margin-top: 5px; }
@@ -31,7 +31,7 @@
 }
 	
 #lbImage, #lbIframe { border: none; }
-#lbImage.black, #lbIframe.black { border: 1px solid #CCCCCC; }
+#lbImage.black, #lbIframe.black { border: 0; }
 	#lbImage.grey, #lbIframe.grey { border: 1px solid #888888; }
 	#lbImage.red, #lbIframe.red { border: 1px solid #DD0000; }
 	#lbImage.green, #lbIframe.green { border: 1px solid #00B000; }
@@ -109,7 +109,7 @@
 	#lbBottomData.gold, #lbTopData.gold { color: #666600; }
 	#lbBottomData.orange, #lbTopData.orange { color: #D15211; }
 
-#lbTopNav, #lbBottomNav { float: right; text-align: right; padding-right: 10px; }
+#lbTopNav, #lbBottomNav { float: right; text-align: right; padding-right: 10px; padding-top: 10px; }
 #lbNumTop, #lbNumBottom { font-style: italic; }
 #lbDescBottom { display: block; }
 #lbTitleTop, #lbTopNav { margin-top: 0.3em; }
