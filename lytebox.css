@@ -154,6 +154,23 @@
 /* Some extra padding on the bottom buttons so it's not too close to the border. */
 #lbClose, #lbPrint, #lbPlay, #lbPause { margin: 0 0 6px 8px; }
 
+/*création de miniature*/
+.lytebox img
+{
+	max-width:300px;
+}
+
+/*mise en page spécial lytebox vs github*/
+#lbMain img
+{
+	max-width:5000px;
+}
+
+#lbOuterContainer
+{
+	padding-bottom: 80px;
+}
+
 /* Lytetip */
 * html a:hover { background: transparent; }
 
