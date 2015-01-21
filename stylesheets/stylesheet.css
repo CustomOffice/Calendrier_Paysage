@@ -47,13 +47,6 @@ table {
 /*******************************************************************************
 Theme Styles
 *******************************************************************************/
-#logo_perso
-{
-	max-height: 50px;
-	position: absolute;
-	top: 0;
-	left: 10px;
-}
 
 body {
   box-sizing: border-box;
@@ -424,4 +417,14 @@ Small Device Styles
     font-size: 11px;
   }
 
+}
+
+#logo_perso
+{
+	max-height: 50px;
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	border:0;
+	box-shadow:0;
 }
